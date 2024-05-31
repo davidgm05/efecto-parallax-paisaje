@@ -57,37 +57,16 @@
   }
 }
 
-.title-train {
-  color: #003b64;
-  position: fixed;
-  top: 25%;
-  left: 40%;
-  
-}
+
 
 .title {
   position: absolute;
   font-size: 60px;
-  top: 76%;
+  top: 74.5%;
   left: 50%;
 }
 
-@media (min-height: 800px) {
-  @keyframes scrollAnimation {
-    0% {
-      font-size: 40px;
-      top: 51%;
-      left: 0%;
-      
-    }
-    100% {
-      font-size: 40px;
-      top: 51%; 
-      left: 100%; 
-      
-    }
-}
-}
+
 
 
     

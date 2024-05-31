@@ -21,11 +21,11 @@ function App() {
             let scale = Math.max(1, 2 - (offset / 300)); 
             img.style.transform = `translate(-50%, -50%) scale(${scale})`;
 
-            if (scale === 1) {
-              title.style.animation = 'scrollAnimation 9s infinite';
-          } else {
-              title.style.animation = 'none'; 
-          }
+          //   if (scale === 1) {
+          //     title.style.animation = 'scrollAnimation 9s infinite';
+          // } else {
+          //     title.style.animation = 'none'; 
+          // }
 
             
         };
@@ -43,7 +43,6 @@ function App() {
 
         <div className='container-img'>
           <div className='title'>DestinoDiverso</div>
-            <h1 className='title-train'>DestinoDiverso</h1>
             <div className='img'></div>
             <div className='second-section'></div>
             <div className='third-section'></div>
