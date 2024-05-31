@@ -4,7 +4,6 @@
     position: relative;
     width: 100vw;
     height: auto;
-    
     z-index: 1;
 }  
 .img {
@@ -23,16 +22,31 @@
 }
 
 .second-section {
-  
-   
     width: 100vw;
     height: 100vh;
-    /* background-image: url('./assets/background1.jpg');
     background-repeat: no-repeat;
-    background-size: cover;  */
+    background-size: cover; 
     background-color: #60fff4f8;
-   
+    
+  }
+  
+  .nube1 {
+    position: absolute;
+    background-image: url('./assets/nube1.svg');
+    top: 100px;
+    left: 60%;
+    z-index: 5;
 }
+
+.nube2 {
+  position: absolute;
+  background-image: url('./assets/nube1.svg');
+  top: -240px;
+  left: -400px;
+  z-index: 3;
+}
+
+
 
 .third-section { 
     width: 100vw;
@@ -43,20 +57,25 @@
    
 }
 
-@keyframes scrollAnimation {
-  0% {
-    font-size: 40px;
-    top: 41%;
-    left: 0%;
-    
-  }
-  100% {
-    font-size: 40px;
-    top: 41%; 
-    left: 100%; 
-    
-  }
+.title {
+  font-size: 80px;
+  background-color: rgb(237, 237, 337, 0.1);
+  backdrop-filter: blur(10px);
+  font-family: "Permanent Marker", cursive;
+  padding: 0px 10px;
+  border-radius: 10px;
 }
+
+
+.container-title {
+  position: absolute;
+  border: 5px solid #00cfff;
+  border-radius: 5px;
+  top: 130px;
+  left: 35%;
+  z-index: 5;
+}
+
 
 
 
