@@ -11,7 +11,7 @@ function App() {
           
             const img = document.querySelector('.img');
             const container = document.querySelector('.container-img');
-            const title = document.querySelector('.title');
+            const title = document.querySelector('.title-train');
             
             
             let offset = window.scrollY ;
@@ -42,7 +42,8 @@ function App() {
       <div>
 
         <div className='container-img'>
-            <h1 className='title'>DestinoDiverso</h1>
+          <div className='title'>DestinoDiverso</div>
+            <h1 className='title-train'>DestinoDiverso</h1>
             <div className='img'></div>
             <div className='second-section'></div>
             <div className='third-section'></div>
