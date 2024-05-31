@@ -11,7 +11,6 @@ function App() {
           
             const img = document.querySelector('.img');
             const container = document.querySelector('.container-img');
-            const title = document.querySelector('.title-train');
             
             
             let offset = window.scrollY ;
