@@ -45,13 +45,13 @@
 @keyframes scrollAnimation {
   0% {
     font-size: 40px;
-    top: 365px;
+    top: 50%;
     left: 0%;
     
   }
   100% {
     font-size: 40px;
-    top: 365px; 
+    top: 50%; 
     left: 100%; 
     
   }
@@ -63,6 +63,23 @@
   top: 25%;
   left: 40%;
   
+}
+
+@media (max-height: 800px) {
+  @keyframes scrollAnimation {
+    0% {
+      font-size: 40px;
+      top: 53%;
+      left: 0%;
+      
+    }
+    100% {
+      font-size: 40px;
+      top: 53%; 
+      left: 100%; 
+      
+    }
+}
 }
 
     
