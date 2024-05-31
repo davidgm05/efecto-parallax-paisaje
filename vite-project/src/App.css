@@ -4,7 +4,7 @@
     position: relative;
     width: 100vw;
     height: auto;
-    height: 200vh;
+    
     z-index: 1;
 }  
 .img {
@@ -24,12 +24,13 @@
 
 .second-section {
   
-    background-color: rgba(0, 0, 0, 0.374);
+   
     width: 100vw;
     height: 100vh;
-    background-image: url('./assets/background1.jpg');
+    /* background-image: url('./assets/background1.jpg');
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;  */
+    background-color: #60fff4f8;
    
 }
 
@@ -59,12 +60,6 @@
 
 
 
-.title {
-  position: absolute;
-  font-size: 60px;
-  top: 74.5%;
-  left: 50%;
-}
 
 
 
