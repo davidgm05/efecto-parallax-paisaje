@@ -1,0 +1,72 @@
+
+
+.container-img {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    height: 200vh;
+    z-index: 1;
+}  
+.img {
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    transform: translate(50%, 50%) scale(2);
+    transform-origin: center center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./assets/puente.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 10;
+    transition: transform 0.1s;
+}
+
+.second-section {
+  
+    background-color: rgba(0, 0, 0, 0.374);
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./assets/background1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+   
+}
+
+.third-section { 
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+   
+}
+
+@keyframes scrollAnimation {
+  0% {
+    font-size: 40px;
+    top: 365px;
+    left: 0%;
+    
+  }
+  100% {
+    font-size: 40px;
+    top: 365px; 
+    left: 100%; 
+    
+  }
+}
+
+.title {
+  color: #003b64;
+  position: fixed;
+  top: 25%;
+  left: 40%;
+  
+}
+
+    
+
+
+
+
